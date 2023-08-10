@@ -1,8 +1,6 @@
 # Column preview card challenge
 
-Este challenge consite en realizar una pagina como se describe en la imagen de abajo usando unicamente CSS y HTML y haciendo uso
-
-de los recursos que contiene el repositorio
+Este challenge consiste en realizar una página como se describe en la imagen de abajo usando únicamente CSS y HTML y haciendo uso de los recursos que contiene el repositorio
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
 
