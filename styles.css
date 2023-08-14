@@ -1,2 +1,106 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+  
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 250px 250px 250px;
+    margin: 20px;
+}
+  
+.columna1 {
+    text-align: left;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.columna2 {
+    text-align: left;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.columna3 {
+    text-align: left;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+  
+h1 {
+    padding: 0px 0px 0px 40px;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+}
+  
+p {
+    padding: 20px 40px 40px 40px;
+    margin: 0;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+img {
+    padding: 40px 0px 0px 40px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin: 0px 0px 40px 40px;
+}
+
+.boton-columna1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.boton-columna2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.boton-columna3 {
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+
+  }
+
+@media (max-width: 415px) {
+    .contenedor {
+      grid-template-columns: 1fr;
+    }
+
+    .columna1 {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .columna3 {
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding-top: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
